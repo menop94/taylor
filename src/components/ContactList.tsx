@@ -73,8 +73,6 @@ const ContactList = (props: ContactsProps) => {
     onSubmitAdd,
   } = props;
 
-  // I've used the name as contactId for simplicity, in a real life situation this would not be the case
-
   const renderItem = useCallback(({ item: { name, email, phoneNumber } }) => {
     return (
       <View style={styles.itemContainer}>

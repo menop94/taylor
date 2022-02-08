@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     maxWidth: '90%',
   },
   submitButtonContainer: {
-    // width: '-40%',
     justifyContent: 'center',
     alignItems: 'center',
   },

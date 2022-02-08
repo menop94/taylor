@@ -65,7 +65,6 @@ const Home = () => {
   };
 
   const deleteContact = (contactId: string) => {
-    console.log(contactId);
     dispatch({
       type: 'delete',
       payload: {

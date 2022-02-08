@@ -33,9 +33,6 @@ export const reducer = (state: State, action: Action): State => {
         1
       );
 
-      console.log('RES', res);
-      console.log(newContacts);
-
       return {
         contacts: newContacts,
       };
